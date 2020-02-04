@@ -13,6 +13,7 @@ var modalRemoveBtn = $("#modalRemoveBtn");
 var modalRegisterBtn = $("#modalRegisterBtn");
 showList(1);
 
+// 모달에서 댓글 삭제버튼 클릭했을 때
 modalRemoveBtn.on("click", function(e){
     var rno = modal.data("rno");
     

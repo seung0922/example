@@ -12,7 +12,7 @@ $("#addReplyBtn").on("click", function (e) {
     modalInputDepth.val(0);
 });
 
-// 댓글등록
+// 댓글등록 버튼 클릭
 modalRegisterBtn.on("click", function (e) {
     var reply = {
         reply: modalInputReply.val(),

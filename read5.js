@@ -1,3 +1,4 @@
+// 댓글 수정 버튼 클릭 이벤트 
 modalModBtn.on("click", function (e) {
     var reply = {
         rno: modal.data("rno"),

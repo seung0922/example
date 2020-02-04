@@ -1,4 +1,4 @@
-//대댓글
+//대댓글 달기 버튼 클릭 이벤트
 $(".chat").on("click", "li button", function (e) {
 
     e.stopPropagation();

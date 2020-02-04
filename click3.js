@@ -1,5 +1,7 @@
 $(document).ready(function () {
     var f1 = $("#f1");
+	
+	// 페이지 숫자 클릭했을 때
     $(".pageDiv ul").on("click", 'a', function (e) {
         e.preventDefault();
         console.log("click");
@@ -10,6 +12,7 @@ $(document).ready(function () {
     });
 
 
+	// 글 번호 클릭했을 때
     $(".bnoLink").on("click", function (e) {
 
         e.preventDefault();
@@ -24,6 +27,7 @@ $(document).ready(function () {
     });
 
 
+	// 검색버튼 클릭했을 때
     $("#searchBtn").on("click", function (e) {
         $("input[name='page']").val(1);
 

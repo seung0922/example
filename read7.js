@@ -2,6 +2,7 @@ var pageNum = 1;
 var replyPageFooter = $(".panel-footer");
 var repll = $("#repll");
 
+// 댓글 페이징 클릭 이벤트
 replyPageFooter.on("click", "li a", function (e) {
     e.preventDefault();
     console.log("page click");

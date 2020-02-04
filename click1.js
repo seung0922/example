@@ -1,3 +1,4 @@
+// 자식요소 클릭 이벤트
 $('#myTask').children().click(function () {
 
     $(this).remove();
